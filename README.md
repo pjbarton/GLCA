@@ -1,7 +1,7 @@
 # GLCA
 OpenGL Coded Aperture
 
-Projects a color-indexed set of polygons (i.e. detectors), and calculates the image histograms (i.e. system response) for a number of model rotations (i.e. radiation source angles).  Produces a UInt16 file of size source angles-by-detectors.
+Projects a color-indexed set of polygons (i.e. detectors), and calculates the image histograms (i.e. system response) for a number of model rotations (i.e. radiation source angles).  Produces a UInt16 file of size: [source angles, detectors].
 
 Developed on:
 Dell M3800 Laptop
