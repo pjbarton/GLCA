@@ -1,12 +1,12 @@
 # GLCA
 OpenGL Coded Aperture
 
-Projects a color-indexed set of polygons (i.e. detectors), and calculates the image histograms (i.e. system response) for a number of model rotations (i.e. radiation source angles).  Produces a UInt16 file of size: [source angles, detectors].
+Projects a color-indexed set of polygons (i.e. detectors), and calculates the image histograms (i.e. system response) for a number of model rotations (i.e. radiation source angles).  Produces UInt16 system response file with dimensions [source angles, detectors].
 
 Developed on:
-Dell M3800 Laptop
-Nvidia Quadro K1100M
-Ubuntu 14.04
+* Dell M3800 Laptop
+* Nvidia Quadro K1100M
+* Ubuntu 14.04
 
 ## Prereqs 
     sudo apt-get install libglew-dev freeglut3-dev libglm-dev libconfig-dev
