@@ -1,9 +1,9 @@
 nside = 16
 mask = "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"  
-model = "PRISM_1_0.ply"
+model = "PRISM_ring.ply"
 winSize = 200
-showBuffers = false
-bHealpix = true
+showBuffers = true
+bHealpix = false
 bAnimate = true
 bDOI = false
-bFPS = false
+bFPS = true
